@@ -12,7 +12,8 @@ print("""\u001b[34;1m
     ─╔╝╔╝──║║─║╔══╝║╔══╝──║║──
     ╔╝═╚═╗╔╣─╗║║───║╚══╗──║║──
     ╚════╝╚══╝╚╝───╚═══╝──╚╝──
-                                """)
+   \u001b[0m..:::\u001b[41mPython Zip Cracker\u001b[0m:::..
+ --------------------------------     (\u001b[33;1mv1.0.3\u001b[0m)""")
 print("\u001b[37;1m")
 _a_=__Argument__(description="""\u001b[31;1mdes: zipet is a zip_cracker""",epilog="\u001b[33;1mEg: zipet -f test.zip -w wordlist.txt\u001b[0m")
 _ra_=_a_.add_argument_group("\u001b[31;4;1mRequired Arguments\u001b[0m\u001b[31;1m")
